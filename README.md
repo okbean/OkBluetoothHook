@@ -6,7 +6,8 @@ OkBluetoothHook
 
 
 
-本库涉及到几个知识点：
+本库涉及到几个知识点:
+
 1/android aidl和binder机制
 
 2/反射调用，android 9.0及更高版本突破对hide api调用的限制
