@@ -15,3 +15,24 @@ OkBluetoothHook
 3/代理模式，java动态代理和静态代理实现代码拦截
 
 4/蓝牙相关的AIDL服务，比如IBluetoothManager， IBluetooth，IBluetoothGatt，IBluetoothGattCallback等
+
+
+如何使用：
+1/在工程根目录的build.gradle添加:
+maven { url 'https://www.jitpack.io' }
+
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+
+2/在依赖OkBluetoothHook模块的build.gradle添加：
+implementation 'com.github.okbean:OkBluetoothHook:1.0.3'
+
+dependencies {
+    implementation 'com.github.okbean:OkBluetoothHook:1.0.3'
+}
