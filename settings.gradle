@@ -1,0 +1,3 @@
+include ':app'
+include ':OkBluetoothHook'
+rootProject.name = "OkBluetoothHookDemo"
