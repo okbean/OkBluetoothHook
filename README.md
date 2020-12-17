@@ -34,8 +34,8 @@ IBluetoothManager， IBluetooth，IBluetoothGatt，IBluetoothGattCallback等
 ```
 
 ## 如何使用 ##
-直接引用OkBluetoothHook.jar, 或者implementation project(':OkBluetoothHook')，
-或者以下两个步骤：
+直接引用OkBluetoothHook.jar, 或者implementation project(':OkBluetoothHook')，或者以下两个步骤：
+
 **1.在工程根目录的build.gradle添加:**
 ``` 
 allprojects {
