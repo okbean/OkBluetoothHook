@@ -1,10 +1,12 @@
 # OkBluetoothHook
-```
 用于拦截蓝牙API的安卓框架，无需root(A library of android for hooking Bluetooth API，Root is not needed)
 
-通过注入蓝牙相关服务，拦截APP所有关于蓝牙的操作（目前主要是BLE相关操作），比如获取蓝牙状态，gatt连接，发现服务，发送数据，接收数据，设置mtu大小等等。
+```
+1/通过注入蓝牙相关服务，拦截APP所有关于蓝牙的操作（目前主要是BLE相关操作），
+ 比如获取蓝牙状态，gatt连接，发现服务，发送数据，接收数据，设置mtu大小等等。
 
-整个注入过程不需要修改原APP的代码(即无侵入式)，仅需要在Application::onCreate方法里调用OkBluetoothHook::inject即可完成对蓝牙服务的注入。
+2/整个注入过程不需要修改原APP的代码(即无侵入式)，
+ 仅需要在Application::onCreate方法里调用OkBluetoothHook::inject即可完成对蓝牙服务的注入。
 ```
 
 
