@@ -12,7 +12,7 @@ import java.lang.reflect.Proxy;
  * author: okbean
  * date:   On 2020/10/01
  * email: okbean020@163.com
- * description: 改了主要用来拦截IBluetoothManager里的queryLocalInterface函数，
+ * description: 该类主要用来拦截IBluetoothManager里的queryLocalInterface函数，
  * 把返回结果替换成android.bluetooth.IBluetoothManager$Stub的代理类（使用动态代理方式）
  */
 public final class BluetoothBinderHook implements InvocationHandler {
