@@ -1,5 +1,5 @@
 # OkBluetoothHook
-用于拦截蓝牙API的安卓框架，无需root(A library of android for hooking Bluetooth API，Root is not needed)
+用于拦截蓝牙API的安卓框架，无需root(A library of android for hooking Bluetooth API，Root is not required)
 
 ```
 1/通过注入蓝牙相关服务，拦截APP所有关于蓝牙的操作（目前主要是BLE相关操作），
