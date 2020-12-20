@@ -33,7 +33,7 @@ android 9.0及更高版本突破对hide api调用的限制
 IBluetoothManager， IBluetooth，IBluetoothGatt，IBluetoothGattCallback等
 ```
 
-## 如何使用 ##
+## 如何接入 ##
 直接引用OkBluetoothHook.jar, 或者implementation project(':OkBluetoothHook')，或者以下两个步骤：
 
 **1.在工程根目录的build.gradle添加:**
